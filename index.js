@@ -18,3 +18,13 @@
 //   }
 // }
 // console.log(`Eng uzun sozning uzunligi: ${uzunSoz}`);
+
+//problem_three_3
+var numbers = [3, 5, 21, 8, 19];
+var sum = 0;
+for (let i = 0; i < numbers.length; i++) {
+  sum += numbers[i];
+  var ortachaQiymat = sum / numbers.length;
+}
+
+console.log(ortachaQiymat);
