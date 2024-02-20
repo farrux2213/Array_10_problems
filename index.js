@@ -30,20 +30,31 @@
 // console.log(ortachaQiymat);
 
 //problem_four_4
-let towns = ["uzb", "rus", "afg", "usa", "kor", "kaz"];
+// let towns = ["uzb", "rus", "afg", "usa", "kor", "kaz"];
 
-console.log(
-  towns.filter((value, index) => {
-    return value === "uzb";
-  })
-);
-console.log(
-  towns.filter((value, index) => {
-    return value === "usa";
-  })
-);
-console.log(
-  towns.filter((value, index) => {
-    return value === "kor";
-  })
-);
+// console.log(
+//   towns.filter((value, index) => {
+//     return value === "uzb";
+//   })
+// );
+// console.log(
+//   towns.filter((value, index) => {
+//     return value === "usa";
+//   })
+// );
+// console.log(
+//   towns.filter((value, index) => {
+//     return value === "kor";
+//   })
+// );
+//problem_five_5
+var numbers = [3, 5, 21, 8, 19, 23, 8.0];
+var maxNum = numbers[0];
+
+for (let i = 0; i < numbers.length; i++) {
+  if (numbers[i] > maxNum) {
+    maxNum = numbers[i];
+  }
+}
+
+console.log(`Sonlar ichida eng kattasi: ${maxNum}`);
