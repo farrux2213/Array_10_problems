@@ -67,18 +67,24 @@
 //problem_seven_7
 
 //problem_eight_8
-var words = [
-  "yoshi",
-  "ogirligi",
-  "60kg",
-  "18",
-  "jinsi",
-  "Farrukh",
-  "ismi",
-  "erkak",
-];
+// var words = [
+//   "yoshi",
+//   "ogirligi",
+//   "60kg",
+//   "18",
+//   "jinsi",
+//   "Farrukh",
+//   "ismi",
+//   "erkak",
+// ];
 
-console.log(words[6] + ":  " + words[5]);
-console.log(words[0] + ":  " + words[3]);
-console.log(words[4] + ":  " + words[7]);
-console.log(words[1] + ":  " + words[2]);
+// console.log(words[6] + ":  " + words[5]);
+// console.log(words[0] + ":  " + words[3]);
+// console.log(words[4] + ":  " + words[7]);
+// console.log(words[1] + ":  " + words[2]);
+
+//problem_nine_9
+var numbers_one = [28, 22, 56, 99, 11, 84, 39];
+var numbers_two = [67, 93, 83, 77, 7, 10];
+
+console.log([...numbers_one, ...numbers_two]);
