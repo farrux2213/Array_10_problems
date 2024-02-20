@@ -66,6 +66,18 @@
 
 //problem_seven_7
 
+// // Array of numbers
+// var numbersArray = [10, 20, 30, 40, 50];
+
+// // Find the index of a specific number (e.g., 30)
+// var numberToFind = 30;
+// var index = numbersArray.findIndex(function(num) {
+//     return num === numberToFind;
+// });
+
+// // Output the index
+// console.log("Index of", numberToFind, "is", index);
+
 //problem_eight_8
 // var words = [
 //   "yoshi",
