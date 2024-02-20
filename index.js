@@ -48,13 +48,37 @@
 //   })
 // );
 //problem_five_5
-var numbers = [3, 5, 21, 8, 19, 23, 8.0];
-var maxNum = numbers[0];
+// var numbers = [3, 5, 21, 8, 19, 23, 8.0];
+// var maxNum = numbers[0];
 
-for (let i = 0; i < numbers.length; i++) {
-  if (numbers[i] > maxNum) {
-    maxNum = numbers[i];
-  }
-}
+// for (let i = 0; i < numbers.length; i++) {
+//   if (numbers[i] > maxNum) {
+//     maxNum = numbers[i];
+//   }
+// }
 
-console.log(`Sonlar ichida eng kattasi: ${maxNum}`);
+// console.log(`Sonlar ichida eng kattasi: ${maxNum}`);
+
+//problem_six_6
+// var alphabit = ["h", "r", "s", "a", "b", "d", "c"];
+
+// console.log(alphabit.sort());
+
+//problem_seven_7
+
+//problem_eight_8
+var words = [
+  "yoshi",
+  "ogirligi",
+  "60kg",
+  "18",
+  "jinsi",
+  "Farrukh",
+  "ismi",
+  "erkak",
+];
+
+console.log(words[6] + ":  " + words[5]);
+console.log(words[0] + ":  " + words[3]);
+console.log(words[4] + ":  " + words[7]);
+console.log(words[1] + ":  " + words[2]);
