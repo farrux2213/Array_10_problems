@@ -84,7 +84,17 @@
 // console.log(words[1] + ":  " + words[2]);
 
 //problem_nine_9
-var numbers_one = [28, 22, 56, 99, 11, 84, 39];
-var numbers_two = [67, 93, 83, 77, 7, 10];
+// var numbers_one = [28, 22, 56, 99, 11, 84, 39];
+// var numbers_two = [67, 93, 83, 77, 7, 10];
 
-console.log([...numbers_one, ...numbers_two]);
+// console.log([...numbers_one, ...numbers_two]);
+
+//problem_ten_10_chatGPT_3.5
+// Array of strings with duplicates
+// var stringsArray = ["apple", "banana", "orange", "apple", "grape", "banana"];
+
+// Convert array to set to remove duplicates, then convert back to array
+// var uniqueStringsArray = Array.from(new Set(stringsArray));
+
+// Output the unique array
+// console.log(uniqueStringsArray);
