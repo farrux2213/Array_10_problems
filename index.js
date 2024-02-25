@@ -110,11 +110,13 @@
 
 // Output the unique array
 // console.log(uniqueStringsArray);
-var n = 1;
-var sum = 0;
-while (n <= 9) {
-  sum += n;
-  n++;
-}
 
-console.log(sum);
+//problem_11
+// var n = 1;
+// var sum = 0;
+// while (n <= 9) {
+//   sum += n;
+//   n++;
+// }
+
+// console.log(sum);
