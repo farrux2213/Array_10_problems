@@ -120,4 +120,3 @@
 // }
 
 // console.log(sum);
-console.log(2);
