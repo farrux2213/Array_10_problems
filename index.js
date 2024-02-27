@@ -120,3 +120,5 @@
 // }
 
 // console.log(sum);
+
+var products = ["carrot", "onion"];
