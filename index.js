@@ -122,3 +122,6 @@
 // console.log(sum);
 
 var products = ["carrot", "onion"];
+
+console.log(products.push("potatoes"));
+console.log(products[2]);
